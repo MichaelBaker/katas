@@ -1,0 +1,4 @@
+watch ".*" do
+  system "clear"
+  system "ruby roman_numerals_test.rb"
+end
