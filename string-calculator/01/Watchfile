@@ -1,0 +1,4 @@
+watch ".*" do |filename|
+  system "clear"
+  system "rspec -fdocumentation string_calculator_spec.rb"
+end

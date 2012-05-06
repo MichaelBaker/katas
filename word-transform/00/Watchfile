@@ -1,0 +1,4 @@
+watch ".*" do |file|
+  system "clear"
+  system "ruby word-morph.rb"
+end
